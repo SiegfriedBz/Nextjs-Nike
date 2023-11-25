@@ -31,11 +31,11 @@ export default function Home() {
         <SpecialOffer />
       </section>
 
-      <section className='padding bg-pale-blue'>
+      <section className='padding'>
         <CustomerReviews />
       </section>
 
-      <section className='padding-x padding-y-big w-full bg-amber-500'>
+      <section className='padding-x padding-y-big w-full'>
         <Subscribe />
       </section>
     </div>
