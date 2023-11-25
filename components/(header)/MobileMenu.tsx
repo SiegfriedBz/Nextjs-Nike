@@ -7,7 +7,7 @@ import ButtonBurger from './ButtonBurger'
 import { HEADER_LINKS } from '@/constants'
 
 const MobileMenu = () => {
-  const { mobileMenuIsOpen } = useAppStore()
+  const { mobileMenuIsOpen, closeMobileMenu } = useAppStore()
 
   return (
     <>
@@ -23,13 +23,14 @@ const MobileMenu = () => {
             className='absolute left-0 right-0 top-[5.75rem] h-[100vh] bg-white'
           >
             {/* mobile menu links */}
-            <ul className='flex h-full flex-col items-center justify-center gap-16 '>
+            <ul className='-mt-16 flex h-full flex-col items-center justify-center gap-8 '>
               {HEADER_LINKS.map((link, index) => {
                 return (
                   <li key={index}>
                     <Link
                       href={link.href}
-                      className='montserrat text-2xl leading-normal text-slate-gray'
+                      onClick={closeMobileMenu}
+                      className='font-palanquin text-3xl font-semibold capitalize text-coral-red'
                     >
                       {link.label}
                     </Link>

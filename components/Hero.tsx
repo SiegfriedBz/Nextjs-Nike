@@ -49,6 +49,7 @@ const Hero = () => {
           label='Shop Now'
           src='/icons/arrow-right.svg'
           alt='/arrow-right'
+          pushTo='/#products'
         />
 
         {/* stats */}
