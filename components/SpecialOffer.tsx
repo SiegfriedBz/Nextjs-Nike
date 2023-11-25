@@ -19,17 +19,18 @@ const SpecialOffer = () => {
         </p>
 
         {/* cta */}
-        <div className='mt-8 flex gap-8'>
+        <div className='mt-8 flex flex-wrap gap-x-8 gap-y-4'>
           <CustomButton
             label='Shop Now'
             src='/icons/arrow-right.svg'
             alt='/arrow-right'
             pushTo='/#products'
+            className='whitespace-nowrap'
           />
           <CustomButton
             label='Learn More'
             pushTo='/#products'
-            className='border-2 bg-transparent text-sm text-slate-gray hover:bg-coral-red hover:text-primary'
+            className='whitespace-nowrap border-2 bg-transparent text-sm text-slate-gray hover:bg-coral-red hover:text-primary'
           />
         </div>
       </div>
