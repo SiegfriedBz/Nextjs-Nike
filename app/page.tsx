@@ -23,7 +23,7 @@ export default function Home() {
         <SuperQuality />
       </section>
 
-      <section className='padding-x padding-y-small bg-green-500'>
+      <section className='padding-x padding-y-small'>
         <Services />
       </section>
 

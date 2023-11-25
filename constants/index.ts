@@ -75,18 +75,20 @@ export const SERVICES = [
   {
     src: truckFast,
     label: 'Free shipping',
-    subtext: 'Enjoy seamless shopping with our complimentary shipping service.',
+    description:
+      'Enjoy seamless shopping with our complimentary shipping service.',
   },
   {
     src: shieldTick,
     label: 'Secure Payment',
-    subtext:
+    description:
       'Experience worry-free transactions with our secure payment options.',
   },
   {
     src: support,
     label: 'Love to help you',
-    subtext: 'Our dedicated team is here to assist you every step of the way.',
+    description:
+      'Our dedicated team is here to assist you every step of the way.',
   },
 ]
 
