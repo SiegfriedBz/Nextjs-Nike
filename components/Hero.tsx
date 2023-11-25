@@ -22,7 +22,7 @@ const Hero = () => {
         w-full
         flex-col
         items-start justify-center
-        gap-16
+        gap-12
         pt-28
         xl:w-2/5
         '
@@ -52,7 +52,7 @@ const Hero = () => {
         />
 
         {/* stats */}
-        <div className='-mt-16 flex gap-10 xl:mt-20'>
+        <div className='-mt-8 flex gap-10 xl:mt-20'>
           {STATS.map((stat, index) => {
             return (
               <div key={index} className='flex flex-col items-start'>

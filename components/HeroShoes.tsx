@@ -8,7 +8,7 @@ const HeroShoes = () => {
   const [selectedShoe, setselectedShoe] = useState(() => SHOES[0])
 
   return (
-    <div className='relative z-10 flex h-[80vh] w-full items-center justify-center xl:h-[85vh] xl:flex-1 '>
+    <div className='relative z-10 mt-8 flex h-[80vh] w-full items-center justify-center xl:mt-0 xl:h-[85vh] xl:flex-1 '>
       <div className='absolute inset-0 bg-primary' />
       <Image
         src={selectedShoe.src}
