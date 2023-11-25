@@ -6,7 +6,7 @@ const PopularProducts = () => {
     <div id='products' className='flex scroll-mt-32 flex-col gap-16'>
       {/* text */}
       <div className='flex flex-col justify-start gap-8'>
-        <h2 className='text-5xl font-palanquin font-bold capitalize'>
+        <h2 className='font-palanquin text-4xl font-bold capitalize'>
           Our <span className='text-coral-red'>Popular</span> products
         </h2>
         <p className='font-montserrat text-slate-gray sm:w-2/3'>

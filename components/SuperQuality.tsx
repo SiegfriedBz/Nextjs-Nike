@@ -9,7 +9,7 @@ const SuperQuality = () => {
     >
       {/* text */}
       <div className='flex w-full max-w-xl flex-1  flex-col items-start justify-start gap-8 lg:mt-8 xl:mt-16'>
-        <h2 className='text-5xl font-palanquin font-bold capitalize'>
+        <h2 className='font-palanquin text-4xl font-bold capitalize'>
           We provide you with{' '}
           <span className='text-coral-red'>super quality</span> shoes
         </h2>
