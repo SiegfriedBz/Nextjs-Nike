@@ -113,29 +113,29 @@ export const FOOTER_LINKS = [
   {
     title: 'Products',
     links: [
-      { name: 'Air Force 1', link: '/' },
-      { name: 'Air Max 1', link: '/' },
-      { name: 'Air Jordan 1', link: '/' },
-      { name: 'Air Force 2', link: '/' },
-      { name: 'Nike Waffle Racer', link: '/' },
-      { name: 'Nike Cortez', link: '/' },
+      { label: 'Air Force 1', href: '/' },
+      { label: 'Air Max 1', href: '/' },
+      { label: 'Air Jordan 1', href: '/' },
+      { label: 'Air Force 2', href: '/' },
+      { label: 'Nike Waffle Racer', href: '/' },
+      { label: 'Nike Cortez', href: '/' },
     ],
   },
   {
     title: 'Help',
     links: [
-      { name: 'About us', link: '/' },
-      { name: 'FAQs', link: '/' },
-      { name: 'How it works', link: '/' },
-      { name: 'Privacy policy', link: '/' },
-      { name: 'Payment policy', link: '/' },
+      { label: 'About us', href: '/' },
+      { label: 'FAQs', href: '/' },
+      { label: 'How it works', href: '/' },
+      { label: 'Privacy policy', href: '/' },
+      { label: 'Payment policy', href: '/' },
     ],
   },
   {
     title: 'Get in touch',
     links: [
-      { name: 'customer@nike.com', link: 'mailto:customer@nike.com' },
-      { name: '+92554862354', link: 'tel:+92554862354' },
+      { label: 'customer@fnike.com', href: 'mailto:customer@nike.com' },
+      { label: '+4123456789', href: 'tel:+92554862354' },
     ],
   },
 ]
