@@ -19,7 +19,17 @@
   }
 
   .input {
-    @apply text-slate-gray max-sm:border-slate-gray border pl-5 text-base leading-normal outline-none max-sm:w-full max-sm:rounded-full max-sm:p-5 sm:flex-1 sm:border-none;
+    @apply border
+    pl-5 
+      text-base 
+      leading-normal 
+      text-slate-gray outline-none 
+      max-sm:w-full
+      max-sm:rounded-full 
+      max-sm:border-slate-gray 
+      max-sm:p-5 
+      sm:flex-1 
+      sm:border-none;
   }
 }
 
@@ -34,6 +44,14 @@
 
   .padding-y {
     @apply py-12 sm:py-24;
+  }
+
+  .padding-y-small {
+    @apply py-10;
+  }
+
+  .padding-y-big {
+    @apply py-16 sm:py-32;
   }
 
   .padding-l {
@@ -53,6 +71,6 @@
   }
 
   .info-text {
-    @apply font-montserrat text-slate-gray text-lg leading-7;
+    @apply font-montserrat text-lg leading-7 text-slate-gray;
   }
 }
