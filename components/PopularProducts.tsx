@@ -3,14 +3,14 @@ import { PRODUCTS } from '@/constants'
 
 const PopularProducts = () => {
   return (
-    <div id='products' className='flex scroll-mt-24 flex-col gap-16'>
+    <div id='products' className='flex scroll-mt-32 flex-col gap-16'>
       {/* text */}
       <div className='flex flex-col justify-start gap-8'>
         <h2 className='text-5xl font-palanquin font-bold capitalize'>
           Our <span className='text-coral-red'>Popular</span> products
         </h2>
         <p className='font-montserrat text-slate-gray sm:w-2/3'>
-          Experiencde top notch quality and style with our sought after
+          Experience top notch quality and style with our sought after
           selection. Discover a world of comfort, design, and value.
         </p>
       </div>
