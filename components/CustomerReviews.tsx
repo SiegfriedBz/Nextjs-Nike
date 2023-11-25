@@ -6,7 +6,7 @@ const CustomerReviews = () => {
     <div className='flex scroll-mt-32 flex-col gap-16'>
       {/* text */}
       <div className='flex flex-col justify-start'>
-        <h2 className='text-5xl font-palanquin font-bold capitalize'>
+        <h2 className='font-palanquin text-4xl font-bold capitalize'>
           What our <span className='text-coral-red'>customers</span> say?
         </h2>
         <p className='mt-6 font-montserrat text-slate-gray sm:w-2/3'>

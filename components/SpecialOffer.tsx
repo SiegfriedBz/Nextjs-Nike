@@ -5,9 +5,9 @@ import Image from 'next/image'
 const SpecialOffer = () => {
   return (
     <div className='flex flex-col justify-center xl:flex-row-reverse'>
-      {/* text */}
       <div className='flex flex-col justify-start xl:justify-center'>
-        <h2 className='text-5xl font-palanquin font-bold capitalize'>
+        {/* text */}
+        <h2 className='font-palanquin text-4xl font-bold capitalize'>
           <span className='text-coral-red'>Special</span> offer
         </h2>
         <p className='mt-6 font-montserrat text-slate-gray'>
