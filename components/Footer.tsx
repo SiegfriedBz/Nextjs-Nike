@@ -7,42 +7,44 @@ const currentYear = new Date().getFullYear()
 const Footer = () => {
   return (
     <footer className='padding-x padding-t bg-black pb-8 text-white'>
-      <div className='flex h-full w-full flex-col'>
-        {/* logo */}
-        <Link href='/'>
-          <Image
-            src='/images/footer-logo.svg'
-            alt='Logo'
-            width={130}
-            height={30}
-          />
-        </Link>
+      <div className='flex-start flex h-full w-full flex-col md:flex-row md:gap-x-16'>
+        <div>
+          {/* logo */}
+          <Link href='/'>
+            <Image
+              src='/images/footer-logo.svg'
+              alt='Logo'
+              width={130}
+              height={30}
+            />
+          </Link>
 
-        {/* text */}
-        <p className='mt-4 text-slate-gray sm:max-w-sm'>
-          Get your shoes ready at your nearest Nike store.{' '}
-          <span className='whitespace-nowrap'>Get rewards.</span>
-        </p>
+          {/* text */}
+          <p className='mt-4 text-slate-gray sm:max-w-sm'>
+            Get your shoes ready at your nearest Nike store.{' '}
+            <span className='whitespace-nowrap'>Get rewards.</span>
+          </p>
 
-        {/* social */}
-        <div className='mb-16 mt-8 flex gap-4'>
-          {SOCIAL_LINKS.map((link, index) => {
-            return (
-              <Link href='/' key={index}>
-                <Image
-                  src={link.src}
-                  alt={link.alt}
-                  width={42}
-                  height={42}
-                  className='rounded-full bg-white p-1'
-                />
-              </Link>
-            )
-          })}
+          {/* social */}
+          <div className='mt-8 flex gap-4 max-md:mb-16'>
+            {SOCIAL_LINKS.map((link, index) => {
+              return (
+                <Link href='/' key={index}>
+                  <Image
+                    src={link.src}
+                    alt={link.alt}
+                    width={38}
+                    height={38}
+                    className='rounded-full bg-white p-1'
+                  />
+                </Link>
+              )
+            })}
+          </div>
         </div>
 
         {/* links */}
-        <div className='flex flex-wrap gap-x-16 gap-y-8 md:gap-x-32'>
+        <div className='flex flex-wrap gap-x-16 gap-y-8 md:w-full md:justify-between md:pr-32'>
           {FOOTER_LINKS.map((link, index) => {
             return (
               <div key={index} className='flex flex-col gap-4'>
