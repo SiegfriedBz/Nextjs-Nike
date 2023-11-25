@@ -1,4 +1,7 @@
+'use client'
+
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 import { twMerge } from 'tailwind-merge'
 
@@ -8,17 +11,22 @@ type PropsType = {
   label: string
   src?: string
   alt?: string
+  pushTo?: string
 }
 const CustomButton = ({
   btnType = 'button',
   className = '',
-  label = '',
-  src = '',
+  label,
+  src,
   alt = '',
+  pushTo,
 }: PropsType) => {
+  const router = useRouter()
+
   return (
     <button
       type={btnType}
+      onClick={pushTo ? () => router.push(pushTo) : () => {}}
       className={twMerge(
         `
         flex 

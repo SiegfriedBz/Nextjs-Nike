@@ -21,10 +21,10 @@ import {
 } from '../public/images'
 
 export const HEADER_LINKS = [
-  { href: '#home', label: 'Home' },
-  { href: '#about-us', label: 'About Us' },
-  { href: '#products', label: 'Products' },
-  { href: '#contact-us', label: 'Contact Us' },
+  { href: '/', label: 'Home' },
+  { href: '/#about-us', label: 'About Us' },
+  { href: '/#products', label: 'Products' },
+  { href: '/#contact-us', label: 'Contact Us' },
 ]
 
 export const SHOES = [

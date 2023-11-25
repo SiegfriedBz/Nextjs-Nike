@@ -7,7 +7,7 @@ import ButtonBurger from './ButtonBurger'
 import { HEADER_LINKS } from '@/constants'
 
 const MobileMenu = () => {
-  const { mobileMenuIsOpen } = useAppStore()
+  const { mobileMenuIsOpen, closeMobileMenu } = useAppStore()
 
   return (
     <>
@@ -29,6 +29,7 @@ const MobileMenu = () => {
                   <li key={index}>
                     <Link
                       href={link.href}
+                      onClick={closeMobileMenu}
                       className='montserrat text-2xl leading-normal text-slate-gray'
                     >
                       {link.label}

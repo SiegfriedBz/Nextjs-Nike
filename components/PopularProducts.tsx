@@ -3,7 +3,7 @@ import { PRODUCTS } from '@/constants'
 
 const PopularProducts = () => {
   return (
-    <div className='flex flex-col gap-16'>
+    <div id='products' className='flex scroll-mt-24 flex-col gap-16'>
       {/* text */}
       <div className='flex flex-col justify-start gap-8'>
         <h2 className='text-5xl font-palanquin font-bold capitalize'>
