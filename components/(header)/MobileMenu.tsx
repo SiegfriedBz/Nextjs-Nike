@@ -1,10 +1,9 @@
 'use client'
 
 import { useAppStore } from '@/store'
-
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
-import ButtonBurger from '../ButtonBurger'
+import ButtonBurger from './ButtonBurger'
 import { HEADER_LINKS } from '@/constants'
 
 const MobileMenu = () => {

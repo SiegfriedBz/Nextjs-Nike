@@ -29,16 +29,16 @@ export const HEADER_LINKS = [
 
 export const SHOES = [
   {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
+    src: thumbnailShoe1,
+    alt: 'bigShoe1',
   },
   {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
+    src: thumbnailShoe2,
+    alt: 'bigShoe2',
   },
   {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
+    src: thumbnailShoe3,
+    alt: 'bigShoe3',
   },
 ]
 

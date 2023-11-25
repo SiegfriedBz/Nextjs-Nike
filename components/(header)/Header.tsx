@@ -5,7 +5,7 @@ import { HEADER_LINKS } from '@/constants'
 
 const Header = () => {
   return (
-    <header className='padding-x fixed z-10 w-full bg-white py-8'>
+    <header className='padding-x fixed z-[999] w-full bg-white py-8'>
       <nav className='max-container flex items-center justify-between'>
         <LogoLink />
 
