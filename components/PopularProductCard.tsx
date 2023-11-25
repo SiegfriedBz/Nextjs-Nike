@@ -23,8 +23,10 @@ const PopularProductCard = ({ product }: Props) => {
           <Image src='/icons/star.svg' alt='star' width={20} height={20} />
           <span>(4.5)</span>
         </div>
-        <h3 className='text-xl font-semibold'>{product.name}</h3>
-        <p className='text-xl font-semibold text-coral-red'>{product.price}</p>
+        <h3 className='font-palanquin text-xl font-semibold'>{product.name}</h3>
+        <p className='font-montserrat text-xl font-semibold text-coral-red'>
+          {product.price}
+        </p>
       </div>
     </div>
   )
