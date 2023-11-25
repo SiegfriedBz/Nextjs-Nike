@@ -8,7 +8,7 @@ const ButtonBurger = () => {
 
   return (
     <button
-      className='z-50 flex items-center justify-center'
+      className='z-[9999] flex items-center justify-center'
       onClick={() => {
         toggleMobileMenu((prev: boolean) => {
           return !prev
