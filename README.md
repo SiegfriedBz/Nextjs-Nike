@@ -1,6 +1,6 @@
 # Nike Landing Page
 
-Next.js 14 application created to learn Tailwind CSS. This project consists of a single landing page.
+Next.js 14 application created to learn Tailwind CSS and responsive design. This project consists of a single landing page.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -46,7 +46,7 @@ npm start
 # Technologies Used
 
 - **Framework**: React, Next.js 14
-- **Styling**: Tailwind CSS
+- **Styling**: Tailwind CSS, responsive design
 
 
 ## Live Demo
