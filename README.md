@@ -7,7 +7,7 @@ Next.js 14 application created to learn Tailwind CSS and responsive design. This
 - [Running the Development Server](#running-the-development-server)
 - [Building for Production](#building-for-production)
 - [Running the Production Server](#running-the-production-server)
-- [Live Demo](#live-demo)
+- [Live Demo](#live-demo) 🚀
 
 # Installation
 
